@@ -14,7 +14,7 @@ logging.basicConfig(filename='realtime.log',level = logging.INFO,
 
 def realtime():
     try:
-        cap = cv2.VideoCapture('rtsp://admin:123456@192.168.1.91/H264?ch=9&subtype=0')
+        cap = cv2.VideoCapture('rtsp://admin:123456@192.168.1.91/H264?ch=8&subtype=0')
         # cap = cv2.VideoCapture(0)
 
         while cap.isOpened():
